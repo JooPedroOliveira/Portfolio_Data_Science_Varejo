@@ -20,10 +20,10 @@ Minha carreira combina a visão analítica da engenharia com a inovação da Int
 
 | Projeto | Arquivo | Descrição Técnica & Negócio |
 | :--- | :--- | :--- |
-| **Previsão de Churn** | `churn_prediction_xgboost.py` | Modelo **XGBoost Classifier** otimizado para identificar clientes com alto risco de cancelamento. Foco em maximizar o Recall para retenção. |
-| **Previsão de Demanda** | `demand_forecasting_regressao.py` | Comparativo entre **Regressão Linear, Polinomial e Redes Neurais** para prever vendas futuras e evitar ruptura de estoque. |
-| **Clusterização (CRM)** | `customer_segmentation_kmeans.py` | Algoritmo **K-Means** aplicado sobre matriz RFM (Recência, Frequência, Valor) para segmentar base em clusters (Vip, Hibernando, Churn). |
-| **Propensão de Vendas** | `sales_propensity_model.py` | Modelo de **Logistic Regression** para Lead Scoring (probabilidade de compra). |
+| **Previsão de Churn** | `churn_prediction_xgboost.py` | Modelo **XGBoost Classifier** para identificar risco de cancelamento. |
+| **Previsão de Demanda** | `demand_forecasting_regressao.py` | Comparativo entre **Regressão Linear, Polinomial e Redes Neurais**. |
+| **Clusterização (CRM)** | `customer_segmentation_kmeans.py` | Algoritmo **K-Means** para segmentação de base (Vip, Churn, etc). |
+| **Propensão de Vendas** | `sales_propensity_model.py` | Modelo de **Logistic Regression** para Lead Scoring. |
 
 ---
 
@@ -32,7 +32,7 @@ Minha carreira combina a visão analítica da engenharia com a inovação da Int
 
 ### 🛍️ Experiência do Cliente & Marketing (Front-Office)
 * **CRM de Hiper-Personalização:** (`projeto_crm_pet.py`)
-    * **O que faz:** Sistema Híbrido (Pandas + LLM). Analisa a recência de compra do cliente (RFM) e usa IA Generativa para criar mensagens de WhatsApp **únicas para cada cliente**, citando o nome e o produto favorito para recuperar vendas (Churn).
+    * **O que faz:** Sistema Híbrido (Pandas + IA). Analisa o comportamento de compra e usa IA para gerar mensagens de WhatsApp personalizadas com ofertas baseadas no produto favorito do cliente.
 * **Personal Stylist IA:** (`sales_assistant_app.py`)
     * **O que faz:** Assistente de vendas que usa **Busca Semântica (Vector Search)** no estoque. O cliente diz *"Quero um look para casamento na praia"* e a IA busca produtos visualmente similares e argumenta a venda.
 * **Agente de Recuperação:** (`sales_recovery_agent.py`)
