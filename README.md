@@ -39,9 +39,9 @@ Minha carreira combina a visão analítica da engenharia com a inovação da Int
     * **O que faz:** Robô focado em carrinho abandonado. Gera mensagens persuasivas baseadas em gatilhos mentais de escassez.
 
 ### ⚙️ Eficiência Operacional (Back-Office)
-* **Chatbot de Manuais (RAG):** (`rag_knowledge_base_core.py`)
+* **Chatbot de Manuais (RAG):** (`rag_knowledge_base_core.py` / `structured_data_rag.py`)
     * **O que faz:** Sistema que lê PDFs de normas internas e tira dúvidas de funcionários sobre regras de negócio.
-* **Analista SQL Autônomo:** (`sql_analyst.py` / `aula17`)
+* **Analista SQL Autônomo:** (`sql_analyst.py`)
     * **O que faz:** Agente Text-to-SQL. Traduz perguntas de diretores em português ("Qual foi a venda de Jeans ontem?") diretamente em código SQL executável.
 * **Consultor de BI:** (`bi_consultant_agent.py`)
     * **O que faz:** Analisa tabelas de KPIs e gera relatórios executivos textuais apontando ofensores e oportunidades.
